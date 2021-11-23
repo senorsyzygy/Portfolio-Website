@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+.container{
+	background-color:snow;
+	width:80vw;
+}
+.headerRow {
+	height:15%;
+	margin-top: 58px;
+}
+.contentRow {
+	height: 85%;
+}
+.caesarRow{
+    /* background-color: snow; */
+    width: 80%;
+    margin: auto;
+
+}
+.oopRow{
+    /* background-color: beige; */
+    width: 80%;
+    margin: auto;
+}
+.quizRow{
+    /* background-color:salmon; */
+    width: 80%;
+    margin: auto;
+}
+.websiteRow{
+    width: 80%;
+    margin: auto;
+}
+.aboutMeRow{
+    width:80%;
+    /* background-color: sandybrown; */
+    margin: auto;
+}
+.mediaRow{
+    width:30%;
+    margin: auto;
+}
+.emailRow{
+    width:50%;
+    margin:auto;
+}
+
+.header {
+	background-image: url("../images/header.jpg");
+	height: 168px;
+    background-position: center;
+    background-size: cover;
+}
+.inline-block{
+    display: inline-block;
+}
