@@ -1,9 +1,9 @@
 body{
-    background-color: black;
+    background-color: slategray;
 }
 .container{
 	background-color:snow;
-	width:80vw;
+	width:90vw;
 }
 .headerRow {
 	height:15%;
@@ -21,7 +21,10 @@ body{
 .oopRow{
     /* background-color: beige; */
     width: 80%;
-    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .quizRow{
     /* background-color:salmon; */
@@ -32,18 +35,26 @@ body{
     width: 80%;
     margin: auto;
 }
+.website2Row{
+    width: 80%;
+    margin: auto;
+}
 .aboutMeRow{
     width:80%;
     /* background-color: sandybrown; */
     margin: auto;
 }
 .mediaRow{
-    width:30%;
     margin: auto;
+    max-width:40%;
 }
 .emailRow{
     width:50%;
     margin:auto;
+}
+.welcomeRow{
+    width:80%;
+    margin: auto
 }
 
 .header {
@@ -52,6 +63,6 @@ body{
     background-position: center;
     background-size: cover;
 }
-.inline-block{
-    display: inline-block;
+html {
+    scroll-behavior: smooth;
 }
