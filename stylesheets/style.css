@@ -1,8 +1,13 @@
 body{
     background-color: slategray;
 }
+/* Changed some headers to complementary colour of bg */
+h3, h4, h5 {
+    color:#5B6875;
+}
+
 .container{
-	background-color:snow;
+	background-color: white;
 	width:90vw;
 }
 .headerRow {
